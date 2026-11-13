@@ -1,0 +1,6 @@
+model,test_accuracy_pct,latency_mean_ms,latency_p50_ms,latency_p99_ms,throughput_img_s,size_mb,total_params,nonzero_params,sparsity_pct,threads
+fp32,94.01,20.579,20.112,29.881,48.6,44.777,11173962,11173962,0.0,1
+ptq_int8,93.93,10.848,9.313,16.326,92.2,11.314,n/a,n/a,n/a,1
+qat_int8,94.14,11.269,11.574,15.437,88.7,11.314,n/a,n/a,n/a,1
+unstructured,94.18,21.858,20.092,34.837,45.7,44.777,11173962,2242480,79.93,1
+structured,93.81,12.504,12.202,19.39,80.0,22.79,5679306,5679306,0.0,1
